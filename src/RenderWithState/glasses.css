@@ -1,0 +1,13 @@
+.glasses .btn img {
+  width: 150px;
+}
+.glasses__image {
+  position: relative;
+}
+.glasses__glass {
+  position: absolute;
+  width: 50%;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+}
