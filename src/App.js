@@ -9,7 +9,7 @@ import EventBinding from "./EventBinding/EventBinding";
 import RenderWithState from "./RenderWithState/RenderWithState";
 import BaiTapChonXe from "./RenderWithState/BaiTapChonXe";
 import RenderWithMap from "./RenderWithState/RenderWithMap/RenderWithMap";
-
+import ExampleGlasses from "./RenderWithState/ExampleGlasses";
 function App() {
   return (
     <div className="App">
@@ -20,6 +20,7 @@ function App() {
       {/* <RenderWithState /> */}
       {/* <BaiTapChonXe /> */}
       {/* <RenderWithMap /> */}
+      <ExampleGlasses />
     </div>
   );
 }
